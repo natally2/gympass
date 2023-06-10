@@ -6,7 +6,7 @@ import { UserAlreadyExistsError } from '@/errors/UserAlreadyExistsError';
 
 describe('Create User Service', () => {
 
-	it('should create a user', async() => {
+	it('should be able to create a user', async() => {
 		const inMemoryUsersRepository = new InMemoryUsersRepository();
 		const createUserService = new CreateUsersService(inMemoryUsersRepository);
 
