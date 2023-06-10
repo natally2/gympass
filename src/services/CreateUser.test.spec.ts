@@ -54,7 +54,7 @@ describe('Create User Service', () => {
 		});
 
 
-		expect(async () => 
+		await expect(async () => 
 			createUserService.execute({
 				name: 'TEST',
 				email,
