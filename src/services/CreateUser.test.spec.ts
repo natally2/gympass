@@ -2,7 +2,7 @@ import { expect, describe, it } from 'vitest';
 import { compare } from 'bcryptjs';
 import { CreateUsersService } from './CreateUsersService';
 import { InMemoryUsersRepository } from '@/repositories/in-memory/InMemoryUsersRepository';
-import { UserAlreadyExistsError } from '@/errors/user-already-exists-error';
+import { UserAlreadyExistsError } from '@/errors/UserAlreadyExistsError';
 
 describe('Create User Service', () => {
 
